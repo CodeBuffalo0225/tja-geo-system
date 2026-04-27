@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ApiKeyGate from "./components/ApiKeyGate.jsx";
-import TJAGeoSystem from "./TJAGeoSystem.jsx";
+import TJAGeoSystem from "./systems/TJAGeoSystem.jsx";
 
 export default function App() {
   const envKey = import.meta.env.VITE_ANTHROPIC_API_KEY;
